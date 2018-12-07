@@ -1,3 +1,19 @@
-<p>
-  employee-list works!
-</p>
+<table class="table table-hover">
+	<!-- <caption>table title and/or explanatory text</caption> -->
+	<thead>
+		<th>Name</th>
+		<th>Emp Code</th>
+		<th>Position</th>
+		<th>Mobile</th>
+		<th></th>
+	</thead>
+	<tbody>
+		<tr *ngFor="let emp of list">
+			<td>{{emp.fullName}}</td>
+			<td>{{emp.empCode}}</td>
+			<td>{{emp.position}}</td>
+			<td>{{emp.mobile}}</td>
+			<td><a class="text-danger"><i class="fa fa-trash"></i></a></td>
+		</tr>
+	</tbody>
+</table>
