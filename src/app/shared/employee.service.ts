@@ -6,7 +6,7 @@ import { Employee } from './employee.model';
 })
 export class EmployeeService {
 
-	fromData: Employee;
+	formData: Employee;
 
   constructor() { }
 }
