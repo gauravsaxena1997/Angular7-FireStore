@@ -5,8 +5,6 @@ import { Employee } from './employee.model';
   providedIn: 'root'
 })
 export class EmployeeService {
-
 	formData: Employee;
-
   constructor() { }
 }
