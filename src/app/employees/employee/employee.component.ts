@@ -24,11 +24,14 @@ export class EmployeeComponent implements OnInit {
   		id: null,
   		fullName: '',
   		position: '',
-  		empcode: '',
+  		empCode: '',
   		mobile: '',
   	}
-
-
   }
+
+  onSubmit(form:NgForm){
+  	let data = form.value;
+  }
+
 
 }
