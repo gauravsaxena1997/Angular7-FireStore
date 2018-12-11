@@ -1,4 +1,8 @@
 # Angular7Firestore
+CRUD opearations with Angular7 and Firebase.
+
+Live at
+https://angular7-firestore.firebaseapp.com
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.1.1.
 
