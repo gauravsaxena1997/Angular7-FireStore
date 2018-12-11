@@ -15,7 +15,7 @@ export class EmployeeListComponent implements OnInit {
 	list: Employee[];
 
   constructor(
-    private service:EmployeeService,
+    public service:EmployeeService,
     private firestore: AngularFirestore,
     private toastr: ToastrService,
     ) { }

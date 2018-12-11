@@ -14,7 +14,7 @@ import { ToastrService } from 'ngx-toastr';
 export class EmployeeComponent implements OnInit {
 
   constructor(
-  	private service: EmployeeService,
+  	public service: EmployeeService,
   	private firestore: AngularFirestore,
   	private toastr: ToastrService,
   	) { }
